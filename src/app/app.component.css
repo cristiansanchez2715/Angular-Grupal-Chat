@@ -1,0 +1,18 @@
+body, html {
+    background-image: url('../assets/imagenFondo.jpg');
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 110vh;
+    background-repeat: no-repeat;
+}
+
+.chat-container{
+    background-image: url('../assets/fondochat.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 110vh;
+}
+
+@media(min-width: 320px){
+    
+}

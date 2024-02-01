@@ -1,0 +1,7 @@
+<div class="form-signin-container">
+    <form #signInForm="ngForm" class="custom-form">
+      <h1>Ingrese su nombre de usuario</h1>
+      <input type="text" id="usuario" name="usuario" [(ngModel)]="usuario" class="form-input">
+      <button type="button" (click)="enviarUsuario()" class="form-button">Enviar</button>
+    </form>
+  </div>

@@ -1,0 +1,63 @@
+.container-users-conected{
+    width: 400px;
+    height: 550px;
+    border: black solid 3px;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.user-conected{
+    list-style-type: none;
+    font-family: 'Comic Sans MS', cursive;
+background-color: rgba(0, 0, 139, 0.7);
+color: white;
+}
+
+@media (min-width: 320px){
+    .container-users-conected{
+        width: 300px;
+        height: 200px;
+        overflow-x: auto;
+    }
+
+}
+
+@media(min-width: 460px){
+    .container-users-conected{
+        width: 440px;
+        height: 200px;
+        overflow-x: auto;
+    }
+
+}
+
+@media(min-width: 580px){
+    .container-users-conected{
+        width: 560px;
+        height: 200px;
+        overflow-x: auto;
+    }
+}
+@media(min-width: 720px){
+    .container-users-conected{
+        width: 700px;
+        height: 200px;
+        overflow-x: auto;
+    }
+}
+
+@media(min-width: 900px){
+    .container-users-conected{
+        width: 880px;
+        height: 200px;
+        overflow-x: auto;
+    }
+}
+
+@media(min-width: 1280px){
+    .container-users-conected{
+        width: 400px;
+        height: 200px;
+        overflow-x: auto;
+    }
+}

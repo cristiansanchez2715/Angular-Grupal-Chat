@@ -1,0 +1,7 @@
+
+<div class="container-messages" #messageContainer>
+  <h1>Contenedor messages</h1>
+  <div *ngFor="let message of totalMessages" class="message-item">
+    <h2>{{message.user}}: {{message.message}}</h2>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<div *ngIf="!sign">
+  <signin (enviarUsuarioEvent)="recibirUsuario($event)"></signin>
+</div>
+
+<div [class]="chatcontainer" *ngIf="sign">
+  <conectedusers></conectedusers>
+  <homemessages></homemessages>
+  <writing></writing>
+</div>
